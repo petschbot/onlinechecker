@@ -1,4 +1,6 @@
-# Ruby Online Checker
+# Online Checker
+
+## Ruby Version
 
 An fast and simple REST based URL status checker. 
 
@@ -8,13 +10,13 @@ An fast and simple REST based URL status checker.
 * Prints the status, ID and URL for each row of the CSV
 * Prints a summary with the number of responding/not responding URLs
 
-## Sample CSV structure
+### Sample CSV structure
 
 id;url  
 01;http://petschbot.blogspot.com  
 02;http://www.google.com
 
-## Usage
+### Usage
 
 ./onlinechecker.rb input.csv
 
@@ -22,3 +24,6 @@ Date: 2012/10/06
 Author: petschbot
 Web: petschbot.blogspot.com
 
+## Bash Version
+
+An simple curl based URL status checker
